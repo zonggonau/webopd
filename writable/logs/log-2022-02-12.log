@@ -1,0 +1,12 @@
+ERROR - 2022-02-12 00:38:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where tipe_artikel_id= 1 and opd_hdr_id=12 and status_sistem_id=2 and is_active ' at line 1
+CRITICAL - 2022-02-12 00:38:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where tipe_artikel_id= 1 and opd_hdr_id=12 and status_sistem_id=2 and is_active ' at line 1
+#0 D:\Projek\CI4\opd.intanjayakab.go.id\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 D:\Projek\CI4\opd.intanjayakab.go.id\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Projek\CI4\opd.intanjayakab.go.id\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Projek\CI4\opd.intanjayakab.go.id\app\Controllers\Home.php(17): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Projek\CI4\opd.intanjayakab.go.id\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 D:\Projek\CI4\opd.intanjayakab.go.id\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 D:\Projek\CI4\opd.intanjayakab.go.id\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Projek\CI4\opd.intanjayakab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Projek\CI4\opd.intanjayakab.go.id\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
